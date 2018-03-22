@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+/* ------------------ COLORS ------------------ */
+
+/* - Pink: #DB2765 - */
+/* - Dark Blue: #334371 - */
+
+/* ------------------ GLOBAL CALSSES ------------------ */
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.default_h1{
+	display: none;
+}
+
+.default_h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.8em;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+.default_p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2em;
+	font-weight: 100;
+	color: #ffffff;
+}
+
+.background_properties{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat; 
+}
+
+.login_button{
+	display: block;
+	margin: 1em 0;
+	padding: 1em 2em;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #DB2765;
+	border-radius: 3em;
+	text-align: center;
+}
+
+.sign_up_button{
+	display: block;
+	margin: 1em 0;
+	padding: 1em 2em;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #334371;
+	border-radius: 3em;
+	text-align: center;
+}
+
+/* ------------------ HOMEPAGE ------------------ */
+
+.main_home_page{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100vh;
+	background-image: url(../images/main_home_page_background.jpg);
+}
+
+.main_home_page > section:first-child{
+	padding: 1em;
+	text-align: center;
+}
+
+.main_home_page > section:last-child{
+	padding: 1em;
+}
+
+/* ------------------ LOGIN PAGE ------------------ */
+
+.main_login_page{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 1em;
+	height: 100vh;
+	background-image: url(../images/main_login_page_background.jpg);
+}
+
+.main_login_page > form{
+	display: flex;
+	flex-direction: column;
+}
+
+.main_login_page > form > input{
+	display: block;
+	margin: 0 0 1.5em 0;
+	padding: 0 0 0 1em;
+	height: 3em;
+	border: 0.063em solid #c8c8c8;
+	border-radius: 3em;
+	font-size: 1em;
+	outline: none;
+	transition: border, background-color 0.5s;
+}
+
+.main_login_page > form > input:valid{
+	border: 0.063em solid #7dc242;
+	background-color: #f7f7f7;
+}
+
+.main_login_page > form > input:nth-child(2){
+	margin-bottom: 1.5em; 
+}
+
+.main_login_page > form:invalid > p{
+	display: none;
+}
+
+.main_login_page > form:valid > p{
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.875em;
+	font-weight: 300;
+	color: #7dc242;
+}
+
+.main_login_page > form > a{
+	margin: 0 1.5em 0 0; 
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.875em;
+	font-weight: 300;
+	color: #ffffff;
+	text-decoration: underline;
+	text-align: right;
+}
+
+.main_login_page > form > button{
+	display: block;
+	margin: 4em 0 0 0;
+	padding: 1em 2em;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: none;
+	background-color: #DB2765;
+	border-radius: 3em;
+	text-align: center;
+}
+
+.main_login_page > form > button:hover{
+	cursor: pointer;
+	background-color: #FF9800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
