@@ -123,7 +123,7 @@ body{
 	display: block;
 	margin: 0 0 1.5em 0;
 	padding: 0 0 0 1em;
-	height: 3em;
+	min-height: 3em;
 	border: 0.063em solid #c8c8c8;
 	border-radius: 3em;
 	font-size: 1em;
@@ -169,6 +169,7 @@ body{
 	margin: 4em 0 0 0;
 	padding: 1em 2em;
 	width: 100%;
+	min-height: 3em;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
 	font-weight: 400;
