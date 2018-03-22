@@ -37,6 +37,19 @@ body{
 	color: #ffffff;
 }
 
+.default_tag{
+	display: block;
+	padding: 0.5em 1em;
+	width: fit-content;
+	height: max-content;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.8em;
+	font-weight: 100;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 3em;
+}
+
 .background_properties{
 	background-size: cover;
 	background-position: center;
@@ -208,20 +221,10 @@ body{
 	border-bottom: 1px solid #4a61a2;
 }
 
-.main_overzicht_page > article > img{
+.main_overzicht_page > article > a > img{
 	display: block;
 	max-width: 7em;
 	max-height: 7em;
-}
-
-.main_overzicht_page > article > a > img{
-	position: absolute;
-	display: block;
-	margin: 0 1em 1em 0;
-	bottom: 0;
-	right: 0;
-	max-width: 2.5em;
-	height: auto;
 }
 
 .main_overzicht_page > article > div{
@@ -237,6 +240,39 @@ body{
 
 .main_overzicht_page > article > div > p{
 	font-size: 0.8em;
+}
+
+/* ------------------ PROFILE PAGE ------------------ */
+
+.main_profile_page{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background-color: #334371;
+}
+
+.main_profile_page > .profile_header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 4em 1em;
+	height: 35vh;
+	background-image: url(../images/profile_header_background.jpg);
+	text-align: center;
+}
+
+.main_profile_page > .profile_header > a > img{
+	display: block;
+	max-width: 10em;
+	max-height: 10em;
+}
+
+.main_profile_page > section{
+	display: flex;
+	justify-content: space-between;
+	height: 35vh;
+	padding: 2em 1em;
 }
 
 /* ------------------ NAVIGATION ------------------ */
