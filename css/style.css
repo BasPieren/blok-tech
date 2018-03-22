@@ -202,8 +202,9 @@ body{
 }
 
 .main_overzicht_page > article{
+	position: relative;
 	display: flex;
-	padding: 3em 1em;
+	padding: 4em 1em;
 	border-bottom: 1px solid #4a61a2;
 }
 
@@ -211,6 +212,16 @@ body{
 	display: block;
 	max-width: 7em;
 	max-height: 7em;
+}
+
+.main_overzicht_page > article > a > img{
+	position: absolute;
+	display: block;
+	margin: 0 1em 1em 0;
+	bottom: 0;
+	right: 0;
+	max-width: 2.5em;
+	height: auto;
 }
 
 .main_overzicht_page > article > div{
