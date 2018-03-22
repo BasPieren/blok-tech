@@ -72,7 +72,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	height: 90vh;
+	height: 91vh;
 	background-image: url(../images/main_home_page_background.jpg);
 }
 
@@ -88,11 +88,20 @@ body{
 /* ------------------ LOGIN PAGE ------------------ */
 
 .main_login_page{
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 90vh;
+	height: 91vh;
 	background-image: url(../images/main_login_page_background.jpg);
+}
+
+.main_login_page > a{
+	position: absolute;
+	margin: 1em 0 0 1em;
+	top: 0;
+	left: 0;
+	width: 3em;
 }
 
 .main_login_page > p{
@@ -137,10 +146,12 @@ body{
 
 .main_login_page > form:valid > p{
 	display: block;
+	margin: 0 0 2em 0;
 	font-family: 'Roboto', sans-serif;
 	font-size: 0.875em;
 	font-weight: 300;
 	color: #7dc242;
+	text-align: center;
 }
 
 .main_login_page > form > a{
@@ -168,11 +179,6 @@ body{
 	background-color: #DB2765;
 	border-radius: 3em;
 	text-align: center;
-}
-
-.main_login_page > form > button:hover{
-	cursor: pointer;
-	background-color: #FF9800;
 }
 
 
