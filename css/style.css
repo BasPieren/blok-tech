@@ -72,7 +72,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	height: 100vh;
+	height: 80vh;
 	background-image: url(../images/main_home_page_background.jpg);
 }
 
@@ -90,10 +90,19 @@ body{
 .main_login_page{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
 	padding: 1em;
-	height: 100vh;
+	height: 80vh;
 	background-image: url(../images/main_login_page_background.jpg);
+}
+
+.main_login_page > p{
+	margin: 4em 0 0 0;
+	text-align: center;
+}
+
+.main_login_page > p > a{
+	color: #ffffff;
 }
 
 .main_login_page > form{
@@ -138,7 +147,7 @@ body{
 	margin: 0 1.5em 0 0; 
 	font-family: 'Roboto', sans-serif;
 	font-size: 0.875em;
-	font-weight: 300;
+	font-weight: 100;
 	color: #ffffff;
 	text-decoration: underline;
 	text-align: right;
